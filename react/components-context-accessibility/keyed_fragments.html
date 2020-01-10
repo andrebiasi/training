@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>React Project</title>
+        <script src="https://unpkg.com/react@16.7.0/umd/react.development.js"></script>
+        <script src="https://unpkg.com/react-dom@16.7.0/umd/react-dom.development.js"></script>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+        <style>
+            nav {
+                display: flex;
+                justify-content: space-around;
+                background-color: cadetblue;
+            }
+            nav > a {
+                color: coral;
+                font-size: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="root"></div>
+        <script type="text/babel">
+
+            const skiDictionary = [
+                { id: 1, name: "Send", definition: "balblabkabka" },
+                { id: 2, name: "Chowder", definition: "uururururuururur" }
+            ]
+
+            const NavItems = () =>
+            //<React.Fragment>
+            <>
+                <a href="/">Home</a>
+                <a href="/about">About</a>
+                <a href="/services">Services</a>
+                <a href="/contact">Contact</a>
+            </>
+            //</React.Fragment>
+
+            const App = ({skiDictionary}) => {
+                return (
+                    <dl>
+                        {skiDictionary.map(term => (
+                            <React.Fragment key={term.id}>
+                                <dt>{term.name}</dt>
+                                <dd>{term.definition}</dd>
+                            </React.Fragment>
+                        ))}
+                    </dl>
+                )
+            }
+            
+            ReactDOM.render(
+                <App skiDictionary={skiDictionary} />,
+                document.getElementById("root")
+            )
+        </script>
+    </body>
+</html> 

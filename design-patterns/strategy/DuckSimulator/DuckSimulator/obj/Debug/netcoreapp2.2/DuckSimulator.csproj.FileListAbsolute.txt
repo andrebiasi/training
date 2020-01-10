@@ -1,0 +1,11 @@
+/Users/andre.fernandes/training/design-patterns/strategy/DuckSimulator/DuckSimulator/bin/Debug/netcoreapp2.2/DuckSimulator.deps.json
+/Users/andre.fernandes/training/design-patterns/strategy/DuckSimulator/DuckSimulator/bin/Debug/netcoreapp2.2/DuckSimulator.runtimeconfig.json
+/Users/andre.fernandes/training/design-patterns/strategy/DuckSimulator/DuckSimulator/bin/Debug/netcoreapp2.2/DuckSimulator.runtimeconfig.dev.json
+/Users/andre.fernandes/training/design-patterns/strategy/DuckSimulator/DuckSimulator/bin/Debug/netcoreapp2.2/DuckSimulator.dll
+/Users/andre.fernandes/training/design-patterns/strategy/DuckSimulator/DuckSimulator/bin/Debug/netcoreapp2.2/DuckSimulator.pdb
+/Users/andre.fernandes/training/design-patterns/strategy/DuckSimulator/DuckSimulator/obj/Debug/netcoreapp2.2/DuckSimulator.csprojAssemblyReference.cache
+/Users/andre.fernandes/training/design-patterns/strategy/DuckSimulator/DuckSimulator/obj/Debug/netcoreapp2.2/DuckSimulator.csproj.CoreCompileInputs.cache
+/Users/andre.fernandes/training/design-patterns/strategy/DuckSimulator/DuckSimulator/obj/Debug/netcoreapp2.2/DuckSimulator.AssemblyInfoInputs.cache
+/Users/andre.fernandes/training/design-patterns/strategy/DuckSimulator/DuckSimulator/obj/Debug/netcoreapp2.2/DuckSimulator.AssemblyInfo.cs
+/Users/andre.fernandes/training/design-patterns/strategy/DuckSimulator/DuckSimulator/obj/Debug/netcoreapp2.2/DuckSimulator.dll
+/Users/andre.fernandes/training/design-patterns/strategy/DuckSimulator/DuckSimulator/obj/Debug/netcoreapp2.2/DuckSimulator.pdb

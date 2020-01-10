@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/Library/Caches/Rider2019.1/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.1/resharper-host/local/Transient/ReSharperHost/v191/SolutionCaches/_DuckSimulator.2088448152.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="DuckSimulator" t="IncludeRecursive">
+        <e p="Behaviour" t="Include">
+          <e p="FlyNoWay.cs" t="Include" />
+          <e p="FlyWithWings.cs" t="Include" />
+          <e p="IFlyBehaviour.cs" t="Include" />
+          <e p="IMakeSoundBehaviour.cs" t="Include" />
+          <e p="Squeak.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="DuckSimulator.csproj" t="IncludeRecursive" />
+        <e p="Model" t="Include">
+          <e p="Duck.cs" t="Include" />
+          <e p="MallardDuck.cs" t="Include" />
+          <e p="Quack.cs" t="Include" />
+          <e p="RubberDuck.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="DuckSimulator.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="DuckSimulator.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

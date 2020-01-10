@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>React Project</title>
+        <script src="https://unpkg.com/react@16.7.0/umd/react.development.js"></script>
+        <script src="https://unpkg.com/react-dom@16.7.0/umd/react-dom.development.js"></script>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    </head>
+    <body>
+        <div id="root"></div>
+        <script type="text/babel">
+
+            const message = "You can do this!!!"
+
+            // const Encouragement = ({render}) => (
+            //     <div>
+            //         {render({pepTalk: message})}
+            //     </div>
+            // )
+
+            // const DisplayEncouragement = () => (
+            //     <Encouragement render={({pepTalk}) => <h1>{pepTalk}</h1>} />
+            // )
+
+
+            const Encouragement = () => (
+                <div>
+                    <h1>
+                        {message ? message : null}
+                    </h1>
+                </div>
+            )
+
+            const DisplayEncouragement = () => (
+                <Encouragement />
+            )
+
+            ReactDOM.render(
+                <DisplayEncouragement />,
+                document.getElementById("root")
+            )
+        </script>
+    </body>
+</html> 
